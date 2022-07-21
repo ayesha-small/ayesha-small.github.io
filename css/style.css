@@ -1,0 +1,95 @@
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.body {
+    width: 80%;
+    margin: auto;
+    line-height: 1.25;
+    border-left: 1px solid #000000;
+    border-right: 1px solid #000000;
+}
+
+.top {
+    background-color: #fce99f;
+    display:flex;
+    justify-content: center;
+    gap: 5%;
+    padding: 1rem 0;
+}
+
+.top__image {
+    width: 15%;
+}
+
+.top__text {
+    align-self: center;
+}
+
+.top__title {
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 5rem;
+}
+
+.top__description {
+    font-size: 2rem;
+    text-align: center;
+}
+
+.content-left-experience__title,
+.content-left-education__title,
+.content-right__title {
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 1.75rem;
+    margin: 0.5rem 0;
+}
+
+.content {
+    display: flex;
+
+}
+
+.content-left {
+    width: 70%;
+    margin: 1.5rem 1rem;
+}
+
+.content-left-experience__job,
+.content-left-education__school,
+.content-right-skills__title {
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 0.25rem 0;
+    font-size: 1.15rem;
+}
+
+.content-left-experience__date,
+.content-left-education__date, {
+    font-size: 1.15rem;
+}
+
+.content-left-experience__description,
+.content-left-education__description{
+    margin: 0.75rem 0 1rem 0;
+
+}
+.content-right {
+    width: 30%;
+    background-color: #FFD837;
+    padding: 1.5rem 1rem;
+}
+
+.content-right-skills {
+    display: flex;
+    padding-bottom: 0.5rem;
+    gap: 10%;
+}
+
+.content-right-list {
+    list-style-type: circle;
+    list-style-position: inside;
+}
+
+
+
+
